@@ -1,0 +1,6 @@
+# dont need compiled code
+/target/**
+/target/
+/.idea/sonarlint
+/.idea/sonarlint/*
+
