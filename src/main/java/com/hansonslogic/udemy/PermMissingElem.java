@@ -1,4 +1,4 @@
-package com.hansonslogic;
+package com.hansonslogic.udemy;
 
 /**
  * This class is used to find a missing element from an Integer Array

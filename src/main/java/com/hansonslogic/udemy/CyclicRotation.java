@@ -1,4 +1,4 @@
-package com.hansonslogic;
+package com.hansonslogic.udemy;
 
 public class CyclicRotation {
     // we need to use the remainder trick

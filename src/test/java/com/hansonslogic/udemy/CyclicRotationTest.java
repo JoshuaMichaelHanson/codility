@@ -1,5 +1,6 @@
-package com.hansonslogic;
+package com.hansonslogic.udemy;
 
+import com.hansonslogic.udemy.CyclicRotation;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.hansonslogic;
+package com.hansonslogic.udemy;
 
 public class TapeEquilibrium {
 

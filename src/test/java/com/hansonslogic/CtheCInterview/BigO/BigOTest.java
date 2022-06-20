@@ -1,5 +1,6 @@
-package com.hansonslogic;
+package com.hansonslogic.CtheCInterview.BigO;
 
+import com.hansonslogic.CtheCInterview.bigO.BigO;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

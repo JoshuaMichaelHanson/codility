@@ -1,4 +1,4 @@
-package com.hansonslogic;
+package com.hansonslogic.CtheCInterview.bigO;
 
 public class BigO {
 
