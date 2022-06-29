@@ -62,4 +62,10 @@ class BigOTest {
         int[] memo = new int[10 + 1];
         System.out.println(BigO.fibonacciRecursionWithMemoization(10, memo));
     }
+
+    @Test
+    @DisplayName("Powers of 2.1")
+    void run9() {
+        System.out.println(BigO.powersOfTwo1(10));
+    }
 }

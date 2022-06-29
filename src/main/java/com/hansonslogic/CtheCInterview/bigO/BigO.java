@@ -180,6 +180,39 @@ public class BigO {
             return memo[n];
         }
     }
+
+    /**
+     * going to do a few more just for fun but then need to focus on the codility stuff
+     * Can come back to the Cracking the Coding Interview later
+     */
+
+    /**
+     * @param n powers of 2 to the N
+     * @return the highest power of 2 that is less than or equal to n
+     * This is O(log N)
+     */
+    public static int powersOfTwo1(int n) {
+        if(n < 0) {
+            return 0;
+        } else if(n == 1) {
+            System.out.println(1);
+            return 1;
+        } else {
+            int prev = powersOfTwo1(n / 2);
+            int current = prev * 2;
+            System.out.println(current);
+            return current;
+        }
+    }
+
+    /**
+     * Additional Problems' page 56
+     * Product of A and B is O(B)
+     * A^B is O(B)
+     * Compute percent is o(1)
+     * Integer division is O(A/B)
+     *
+     */
 }
 
 /**
