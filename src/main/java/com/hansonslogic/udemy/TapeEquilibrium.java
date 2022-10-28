@@ -10,7 +10,7 @@ public class TapeEquilibrium {
      */
     static int solution(int[] A) {
         // start at position 1 and calculate both sides
-        // subtract until the the 2 sides are equal OR the number changes directions and go 1 back
+        // subtract until the 2 sides are equal OR the number changes directions and go 1 back
         long leftSide = A[0];
         // find right side
         long rightSide = 0;
